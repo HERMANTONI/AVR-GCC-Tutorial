@@ -1,3 +1,7 @@
+/*Author: Hermantoni
+**Learn Together
+*/
+
 #define F_CPU 12000000UL
 
 #include <avr/io.h>
