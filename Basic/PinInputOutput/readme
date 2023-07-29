@@ -1,0 +1,7 @@
+this case, im use an atmega32 chip :)
+
+how to compile ?
+1. make sure use avr gcc
+2. command to create .o file "avr-gcc -g -Os -mmcu=atmega32 -c main.c"
+3. command to create .elf file "avr-gcc -g -mmcu=atmega32 -o main.elf main.o"
+4. command to create .hex file "avr-objcopy -j .text -j .data -O ihex main.elf main.hex"
